@@ -13,6 +13,7 @@
 		FA715D2017C993CC006EB0E0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA715D1E17C993CC006EB0E0 /* Credits.rtf */; };
 		FA715D2317C993CC006EB0E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA715D2217C993CC006EB0E0 /* AppDelegate.m */; };
 		FA715D2617C993CC006EB0E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA715D2417C993CC006EB0E0 /* MainMenu.xib */; };
+		FA715D3017C99F4C006EB0E0 /* dodo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA715D2F17C99F4B006EB0E0 /* dodo-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FA715D2117C993CC006EB0E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA715D2217C993CC006EB0E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FA715D2517C993CC006EB0E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA715D2C17C99BFB006EB0E0 /* dodo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = dodo.entitlements; sourceTree = "<group>"; };
+		FA715D2F17C99F4B006EB0E0 /* dodo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dodo-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +49,7 @@
 		FA715D0317C993CC006EB0E0 = {
 			isa = PBXGroup;
 			children = (
+				FA715D2F17C99F4B006EB0E0 /* dodo-icon.png */,
 				FA715D1517C993CC006EB0E0 /* dodo */,
 				FA715D0E17C993CC006EB0E0 /* Frameworks */,
 				FA715D0D17C993CC006EB0E0 /* Products */,
@@ -82,6 +86,7 @@
 		FA715D1517C993CC006EB0E0 /* dodo */ = {
 			isa = PBXGroup;
 			children = (
+				FA715D2C17C99BFB006EB0E0 /* dodo.entitlements */,
 				FA715D2117C993CC006EB0E0 /* AppDelegate.h */,
 				FA715D2217C993CC006EB0E0 /* AppDelegate.m */,
 				FA715D2417C993CC006EB0E0 /* MainMenu.xib */,
@@ -156,6 +161,7 @@
 				FA715D1A17C993CC006EB0E0 /* InfoPlist.strings in Resources */,
 				FA715D2017C993CC006EB0E0 /* Credits.rtf in Resources */,
 				FA715D2617C993CC006EB0E0 /* MainMenu.xib in Resources */,
+				FA715D3017C99F4C006EB0E0 /* dodo-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +269,7 @@
 		FA715D2A17C993CC006EB0E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "dodo/dodo-Prefix.pch";
@@ -275,6 +282,7 @@
 		FA715D2B17C993CC006EB0E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "dodo/dodo-Prefix.pch";
